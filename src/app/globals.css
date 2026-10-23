@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+h1, h2, h3, .tech-heading {
+  font-family: var(--font-oxanium), sans-serif;
+}
+
+p, code, .tech-body,a {
+  font-family: var(--font-space-mono), monospace;
+}
