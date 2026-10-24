@@ -6,6 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import Image from 'next/image'
 export default function ResumePrototype() {
   const desktopBarRefs = useRef([]);
   const mobileBarRefs = useRef([]);
@@ -69,6 +70,7 @@ export default function ResumePrototype() {
               <img
                 src="/Image.JPG"
                 alt="Miqdam Ali"
+                fetchPriority="high"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -166,23 +168,29 @@ export default function ResumePrototype() {
 
                 <section className="w-full flex justify-start pt-4 relative">
                   <div className="flex flex-col space-y-3 w-full">
-                    <a
-                      href="https://github.com/miqdam-ali"
-                      className="bg-[#1a365d] text-white rounded-2xl py-1 px-4 font-bold text-center text-xs"
+                     <a
+                      href="https://wa.me/923707158959"
+                      className="bg-[#1a365d] text-white rounded-2xl py-1 px-4 font-bold flex justify-center items-center gap-1 text-xs"
                     >
-                      GitHub
+                      <FaWhatsapp/>Whatsapp
                     </a>
                     <a
                       href="https://github.com/miqdam-ali"
-                      className="bg-[#1a365d] text-white rounded-2xl py-1 px-4 font-bold text-center text-xs"
+                      className="bg-[#1a365d] text-white rounded-2xl py-1 px-4 font-bold flex justify-center items-center gap-1 text-xs"
                     >
-                      LinkedIn
+                      <FaGithub/>GitHub
+                    </a>
+                    <a
+                      href="https://github.com/miqdam-ali"
+                      className="bg-[#1a365d] text-white rounded-2xl py-1 px-4 font-bold flex items-center justify-center gap-1 text-xs"
+                    >
+                      <FaLinkedin/> LinkedIn
                     </a>
                     <a
                       href="https://www.instagram.com/btco.17"
-                      className="bg-[#1a365d] text-white rounded-2xl py-1 px-4 font-bold text-center text-xs"
+                      className="bg-[#1a365d] text-white rounded-2xl py-1 px-4 font-bold  flex items-center justify-center gap-1 text-xs"
                     >
-                      Instagram
+                       <FaInstagram/>  Instagram
                     </a>
                   </div>
                 </section>
@@ -292,7 +300,7 @@ export default function ResumePrototype() {
                 </div>
                 <div className="flex items-center gap-2">
                   <span>✉️</span>
-                  <span className="break-all">example@gmail.com</span>
+                  <span className="break-all">miqdam.code@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span>🌐</span>
@@ -320,6 +328,7 @@ export default function ResumePrototype() {
             <div className="w-40 h-40 rounded-full border-10 border-yellow-500 overflow-hidden bg-gray-300 flex items-center justify-center">
               <img
                 src="/Image.JPG"
+                fetchPriority="high"
                 alt="Miqdam Ali"
                 className="w-full h-full object-cover"
               />
@@ -347,7 +356,7 @@ export default function ResumePrototype() {
               </div>
               <div className="flex items-center gap-2">
                 <span>✉️</span>
-                <span className="break-all">example@gmail.com</span>
+                <span className="break-all">miqdam.code@gmail.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <span>🌐</span>
