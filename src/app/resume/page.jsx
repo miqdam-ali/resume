@@ -59,7 +59,7 @@ export default function ResumePrototype() {
 
   return (
     <main className="min-h-screen flex w-full justify-center items-center p-4 md:p-10">
-      <section className="w-full md:w-200 shadow-2xl flex flex-col md:flex-row md:-rotate-x-20 md:rotate-y-10 md:hover:rotate-x-0 hoveR:rotate-y-0 duration-500 ease-in-out rounded-lg relative overflow-hidden md:overflow-visible bg-white">
+      <section className="w-full md:w-180 shadow-2xl flex flex-col md:flex-row md:-rotate-x-20 md:rotate-y-10 md:hover:rotate-x-0 hoveR:rotate-y-0 duration-500 ease-in-out rounded-lg relative overflow-hidden md:overflow-visible bg-white">
         <div className="hidden md:block w-20 h-2 rotate-45 absolute bg-[#1a365d] top-10 right-0 rounded-full" />
         <div className="hidden md:block w-25 h-2 rotate-45 absolute bg-yellow-500 top-13 right-0 rounded-full" />
 
@@ -77,7 +77,7 @@ export default function ResumePrototype() {
             <h1 className="text-3xl font-black text-white tracking-wide uppercase text-center">
               Miqdam Ali
             </h1>
-            <h2 className="text-sm font-bold text-sky-400 mt-1 tracking-wide text-center">
+            <h2 className="text-sm font-bold text-sky-400 mt-1 ml-1 tracking-wide text-center">
               Full Stack Developer
             </h2>
           </div>
@@ -461,7 +461,7 @@ export default function ResumePrototype() {
             <h1 className="text-5xl font-black text-[#1a365d] tracking-wide uppercase">
               Miqdam Ali
             </h1>
-            <h2 className="text-xl font-bold text-sky-600 mt-2 tracking-wide">
+            <h2 className="text-xl font-bold text-sky-600 ml-1 mt-2 tracking-wide">
               Full Stack Developer
             </h2>
           </div>
