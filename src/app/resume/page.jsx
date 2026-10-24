@@ -69,7 +69,7 @@ export default function ResumePrototype() {
                 <span className="text-emerald-400">
                   <FaWhatsapp />
                 </span>
-                <span>+92 3xxxxxxxxx</span>
+                <span>+92 3707158959</span>
               </div>
               <div className="flex items-center gap-2">
                 <span>✉️</span>
