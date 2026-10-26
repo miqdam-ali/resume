@@ -1,12 +1,12 @@
 # 🚀 Interactive Full-Stack Resume
 
-A premium, single-page interactive resume designed for an ultra-smooth user experience and sleek visual storytelling. Built using modern web technologies to showcase technical expertise, education, and skills with fluid animations.
+A premium, single-page interactive resume designed for an smooth user experience and sleek visual storytelling. Built using modern web technologies to showcase technical expertise, education, and skills with fluid animations.
 
-🔗 **Live Demo:** [miqdam-resume.vercel.app](https://vercel.app)
+🔗 **Live Demo:** https://miqdam-resume.vercel.app/
 
 ## ✨ Features
 
-- **Fluid Animations:** Powered by GSAP for seamless, high-performance transitions and interactive elements.
+- **Fluid Animations:** Powered by GSAP for  high-performance transitions and interactive elements.
 - **Modern UI/UX:** Clean, responsive design crafted with Tailwind CSS.
 - **Fast Performance:** SSR/SSG optimization provided by the Next.js framework.
 
@@ -41,8 +41,4 @@ Follow these steps to run the project locally:
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 📄 Contact & Socials
 
-- **Email:** miqdam.code@gmail.com
-- **LinkedIn:** [miqdam-ali](https://linkedin.com)
-- **Instagram:** [@btco.17](https://instagram.com)
